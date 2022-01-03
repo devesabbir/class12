@@ -1,0 +1,77 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?9bb1999d0c195e73666a8d30ac2ba2ec") format("truetype"),
+url("./flaticon.woff?9bb1999d0c195e73666a8d30ac2ba2ec") format("woff"),
+url("./flaticon.woff2?9bb1999d0c195e73666a8d30ac2ba2ec") format("woff2"),
+url("./flaticon.eot?9bb1999d0c195e73666a8d30ac2ba2ec#iefix") format("embedded-opentype"),
+url("./flaticon.svg?9bb1999d0c195e73666a8d30ac2ba2ec#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "homesilhouette": "\f101",
+    "phone-call-button": "\f102",
+    "telephone": "\f103",
+    "telephone-1": "\f104",
+    "phone-receiver": "\f105",
+    "phone": "\f106",
+    "email": "\f107",
+    "user": "\f108",
+    "invisible": "\f109",
+    "menu": "\f10a",
+    "upload": "\f10b",
+    "paint-brush": "\f10c",
+    "paintbrush": "\f10d",
+);
+
+.flaticon-homesilhouette:before {
+    content: map-get($flaticon-map, "homesilhouette");
+}
+.flaticon-phone-call-button:before {
+    content: map-get($flaticon-map, "phone-call-button");
+}
+.flaticon-telephone:before {
+    content: map-get($flaticon-map, "telephone");
+}
+.flaticon-telephone-1:before {
+    content: map-get($flaticon-map, "telephone-1");
+}
+.flaticon-phone-receiver:before {
+    content: map-get($flaticon-map, "phone-receiver");
+}
+.flaticon-phone:before {
+    content: map-get($flaticon-map, "phone");
+}
+.flaticon-email:before {
+    content: map-get($flaticon-map, "email");
+}
+.flaticon-user:before {
+    content: map-get($flaticon-map, "user");
+}
+.flaticon-invisible:before {
+    content: map-get($flaticon-map, "invisible");
+}
+.flaticon-menu:before {
+    content: map-get($flaticon-map, "menu");
+}
+.flaticon-upload:before {
+    content: map-get($flaticon-map, "upload");
+}
+.flaticon-paint-brush:before {
+    content: map-get($flaticon-map, "paint-brush");
+}
+.flaticon-paintbrush:before {
+    content: map-get($flaticon-map, "paintbrush");
+}

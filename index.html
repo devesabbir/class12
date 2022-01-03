@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class_Topic_2</title>
+     <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="font/flaticon.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section class="contact-form-section">
+             
+        <form id="simpleForm" action="">
+                 <div id="alrt"> <h1>Registration Form</h1>
+                 </div>
+              <div class="form-group">
+                    
+                 <div class="input-box">
+                
+                  <label for="name">Name</label>
+                  <span><i class="flaticon-user"></i></span>
+                      <input id="name" type="text" placeholder="Your Full Name"> <br>
+                      <p></p>
+                 </div>
+
+                 <div class="input-box">
+                    <label for="email">Email</label>
+                    <span><i class="flaticon-email"></i></span>
+                    <input id="email" type="email" placeholder="Your Mail"> <br>
+                  <p></p>
+               </div>
+
+               <div class="input-box">
+                <label for="password">Password</label>
+                <span><i class="flaticon-invisible"></i></span>
+                <input id="password" type="password" placeholder="Give a Strong Password"> <br>
+                 <p></p>
+              </div>
+
+              <div class="input-box">
+                <label for="phone">Phone No</label>
+                <span><i class="flaticon-phone"></i></span>
+                <input id="phone" type="phone" placeholder="Your Phone Number"> <br>
+               <p></p>
+             </div>
+
+             <div class="input-box">
+                <label for="city">City</label>
+                <span><i class="flaticon-menu"></i></span>
+                    <select name="" id="city">
+                        <option value="">Select Option</option>
+                        <option value="Cumilla">Cumilla</option>
+                        <option value="Rajshahi">Rajshahi</option>
+                        <option value="Sylhet">Sylhet</option>
+                        <option value="Dhaka">Dhaka</option>
+                        <option value="Rangpur">Rangpur</option>
+                        <option value="Mymensingh">Mymensingh</option>
+                        <option value="Barishal">Barishal</option>
+                        <option value="Chittagong">Chittagong</option>
+                       
+                    </select>
+                
+           </div>
+
+
+           
+               
+            <div class="input-box">
+                <label for="zip-code">Zip Code</label>
+                <span><i class="flaticon-homesilhouette"></i></span>
+                <input id="zip-code" type="text" placeholder="Zip Code">
+               
+             </div>
+              </div>
+              
+              <div class="form-btn">
+                    <button id="button" type="submit">Submit</button>
+              </div>
+        </form>
+         
+        <div class="curren">
+              <h1>Currency Convert to BDT</h1>
+            <input id="bdtamount" type="number" placeholder="Your amount">
+            <select name="" id="crnlist">
+                <option value="">Select</option>
+                <option value="pound">Pound</option>
+                <option value="cad">CAD</option>
+                <option value="euro">EURO</option>
+                <option value="usd">USD</option>
+            </select>    
+
+            <button id="crn-btn" type="submit">Check</button>
+
+        <div id="output"></div>
+        </div>
+        
+
+        <div class="mariage">
+            <h1>Marriage Age Checker</h1>
+              <input id="ma_name" type="text" placeholder="Your Name">
+              <input id="ma_age" type="number" placeholder="Your Birth Year">
+              <select name="ma_gender" id="ma_gender">
+                    <option value="">Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+              </select>
+
+              <button id="ma_button" type="submit">Check</button>
+
+              <div id="ma_output"></div>
+        </div>
+
+</section>
+
+
+
+     <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="function.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
+
+   

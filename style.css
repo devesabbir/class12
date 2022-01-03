@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+
+
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+}
+
+
+.contact-form-section {
+    box-shadow: rgba(0, 0, 0, 0.26) 0px 0px 20px 10px;
+    border-width: 1px 2px 1px 1px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-image: initial;
+    border-radius: 10px 7px 9px 10px;
+    background: #55a1a7;
+}
+
+.contact-form-section form {
+    max-width: 590px;
+    margin: auto;
+  
+    padding-left: 50px;
+    padding-bottom: 30px;
+    padding-top: 60px;
+    height: 560px;
+}
+
+.contact-form-section form .input-box {
+    display: flex;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.contact-form-section form .input-box label {
+    display: inline-block;
+    width: 90px;
+    align-self: center;
+    text-align: right;
+    margin-right: 30px;
+    color: #e6dddd;
+    font-size: 15px;
+    font-weight: 600;
+}
+   
+.contact-form-section form .input-box input {
+    padding: 10px 20px;
+    border: none;
+    width: 50%;
+}
+
+.input-box p b {
+    text-align: center;
+    margin-left: 120px;
+}
+div#alrt {
+    text-align: center;
+    margin-bottom: 18px;
+    height: 30px;
+    margin-bottom: 50px;
+}
+
+
+div#alrt b {
+    margin-right: 30px;
+    background: #d35400;
+    padding: 10px;
+    color: #fff !important;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+div#alrt h1,.mariage h1,.curren h1{
+    font-size: 30px;
+    margin-right: 70px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.contact-form-section form .input-box input[type="checkbox"] {
+
+    margin-left: 10px;
+    margin-right: 10px;
+    width: inherit;
+}
+
+.contact-form-section form .input-box input[type="radio"] {
+    width: inherit;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.contact-form-section form .input-box input[type="file"] {
+    
+    border: 1px solid #dfebf494;
+}
+
+.contact-form-section form .input-box input::placeholder {
+    text-transform: capitalize;
+}
+
+.contact-form-section form .input-box span {
+    background: #ddd;
+    min-width: 38px;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+    display: none;
+}
+
+.contact-form-section form .input-box select {
+    width: 50%;
+    border: none;
+    appearance: none;
+    background-image: url(img/down-arrow.svg);
+    background-repeat: no-repeat;
+    background-size: 14px;
+    background-position: 95% 55%;
+    padding-left: 15px;
+    height: 40px;
+}
+
+.contact-form-section form .input-box select option {}
+
+.contact-form-section form .input-box textarea {
+    width: 50% !important;
+    resize: none;
+    height: 110px !important;
+}
+ 
+ 
+.contact-form-section form .form-btn {margin-left: 30px;}
+
+.contact-form-section form button {
+    background: #45b78d;
+    color: #fff;
+    padding: 8px 80px;
+    border: none;
+    outline: none;
+    margin-left: 114px;
+    margin-top: 20px;
+    font-size: 20px;
+    box-shadow: 2px 5px 10px -6px #0000009e;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+
+.contact-form-section form .input-box input:focus ~ label{
+
+}
+
+
+.contact-form-section form .input-box input:focus ~ span{
+
+}
+
+
+
+
+.curren:nth-child(2) > h1:nth-child(1) {
+    margin-bottom: 28px;
+   }
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+}
+
+   #crn-btn {
+    height: 30px;
+    width: 120px;
+   }
+
+   .curren p {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 0;
+    color: #ecf0f1!important;
+    line-height: 1;
+ }
+
+ #bdtamount {
+    height: 53px;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    border: navajowhite;
+    outline: none;
+    margin-bottom: 12px;
+   }
+   
+   #crnlist {
+    width: 130px;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+   }
+   
+   .curren {
+    height: 340px;
+    padding-top: 78px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    width: 410px;
+    margin: auto;
+   }
+
+   #crn-btn {
+    height: 50px;
+    border: none;
+    outline: none;
+    background: #45b78d;
+    border-radius: 5px;
+    color: #fff;
+   }
+
+  
+#simpleForm input,#simpleForm select {
+  
+border-radius: 5px;
+  
+}
+
+
+.mariage {
+    width: 500px;
+    margin: auto;
+    padding: 10px 20px;
+}
+
+.mariage input {
+    height: 53px;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    border: navajowhite;
+    outline: none;
+    margin-bottom: 12px;
+}
+
+select#ma_gender {
+    width: 130px;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+button#ma_button {
+    height: 50px;
+    border: none;
+    outline: none;
+    background: #45b78d;
+    border-radius: 5px;
+    color: #fff;
+    width: 110px;
+}
+
+div#ma_output p {
+    padding: 40px 10px;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+}
