@@ -159,6 +159,7 @@ crnbtn.onclick = () => {
     
 }
 
+
 //marriageStatus
 
 
@@ -182,21 +183,15 @@ maButton.addEventListener('click', () => {
          ` 
          maAge.style.border = '1px solid red'
      }else{
-        maOutput.innerHTML = `
-              ${marriage(maName.value,maAge.value,maGender.value)}
+         
+          setTimeout(function () {
+                    maOutput.innerHTML = `
+                    ${marriage(maName.value,maAge.value,maGender.value)}
 
-        `
+                `
+          },1000)
 
      }
 })
 
  
-
-
-
-
-
-
-
-
-
