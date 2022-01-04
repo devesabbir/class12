@@ -18,7 +18,13 @@ function currencyc(input,fromm) {
 }
 
 //marriageChecker
-
+/**
+ * 
+ * @param {*} name 
+ * @param {*} year 
+ * @param {*} gender 
+ * @returns 
+ */
 let marriage = (name,year,gender) => {
        let date = new Date()
        let age = date.getFullYear() - year
@@ -28,6 +34,13 @@ let marriage = (name,year,gender) => {
        `   
 }
 
+
+/**
+ * 
+ * @param {*} year 
+ * @param {*} gender 
+ * @returns 
+ */
 
 function marriageSatus(year,gender){
        if(year >= 0 && year <= 10){
